@@ -27,7 +27,7 @@ public class dbinsert implements insert {
 
     @Override
     public List readdata() {
-        return jt.queryForList("desc emp;");
+        return jt.queryForList("select * from emp;");
     }
 
 
